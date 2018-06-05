@@ -24,7 +24,8 @@
                 android:value=".activities.MainActivity" />
         </activity>
         <activity android:name=".activities.ResultActivity" />
-        <activity android:name=".activities.RecycleLayoutActivity"></activity>
+        <activity android:name=".activities.RecycleLayoutActivity" />
+        <activity android:name=".activities.CardViewActivity"></activity>
     </application>
 
 </manifest>
