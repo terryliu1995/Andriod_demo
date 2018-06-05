@@ -1,9 +1,11 @@
-package com.example.zhiyuliu.andriod_demo;
+package com.example.zhiyuliu.andriod_demo.activities;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.zhiyuliu.andriod_demo.R;
 
 public class ResultActivity extends AppCompatActivity {
 

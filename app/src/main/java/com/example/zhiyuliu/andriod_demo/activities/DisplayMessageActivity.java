@@ -1,12 +1,13 @@
-package com.example.zhiyuliu.andriod_demo;
+package com.example.zhiyuliu.andriod_demo.activities;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ActionMenuView;
 import android.widget.TextView;
+
+import com.example.zhiyuliu.andriod_demo.R;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 

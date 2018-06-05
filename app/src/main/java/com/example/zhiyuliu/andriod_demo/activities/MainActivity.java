@@ -1,10 +1,12 @@
-package com.example.zhiyuliu.andriod_demo;
+package com.example.zhiyuliu.andriod_demo.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+
+import com.example.zhiyuliu.andriod_demo.R;
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
@@ -22,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
+    }
+
+    /** called when click recycle button*/
+    public void openRecycle(View view) {
+        Intent recycleIntent = new Intent(this, RecycleLayoutActivity.class);
+        startActivity(recycleIntent);
     }
 }
 
