@@ -22,11 +22,5 @@ public class CardViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_view);
-
-        mToolbar = findViewById(R.id.);
-        mToolbar.setTitle(getResources().getString(R.string.app_name));
-        mRecyclerView = findViewById(R.id.);
-        GridLayoutManager mGridLayoutManager = new GridLayoutManager(MainActivity.this, 2);
-        mRecyclerView.setLayoutManager(mGridLayoutManager);
     }
 }
